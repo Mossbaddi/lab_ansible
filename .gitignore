@@ -1,0 +1,31 @@
+# Fichiers de configuration locaux
+*.tfvars
+
+# Fichiers de logs
+*.log
+
+# Répertoire .terraform pour stocker les plugins et autres données temporaires
+.terraform/
+
+# Fichiers de state de Terraform
+*.tfstate
+*.tfstate.*
+
+# Fichiers de sauvegarde créés par Terraform
+*.tfstate.backup
+
+# Fichiers de sauvegarde créés lors de l'édition de fichiers de configuration
+*.backup
+
+# Fichiers de crash log de Terraform
+crash.log
+
+# Fichiers de clés SSH, si utilisés
+*.pem
+*.pub
+
+# Fichiers de sauvegarde créés par certains éditeurs
+*~
+
+
+.terraform.lock.hcl
